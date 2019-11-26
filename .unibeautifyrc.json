@@ -1,0 +1,67 @@
+{
+  "JavaScript": {
+    "beautifiers": [
+      "Prettier",
+      "Pretty Diff",
+      "JS-Beautify",
+      "ESLint"
+    ],
+    "indent_style": "tab",
+    "multiline_ternary": "never",
+    "pragma_insert": true,
+    "quotes": "double",
+    "arrow_parens": "always"
+  },
+  "Less": {
+    "beautifiers": [
+      "Prettier",
+      "Pretty Diff"
+    ],
+    "align_assignments": true,
+    "break_chained_methods": true,
+    "end_with_comma": true,
+    "end_with_semicolon": true,
+    "indent_comments": true,
+    "indent_style": "tab",
+    "multiline_ternary": "always-multiline",
+    "pragma_insert": true
+  },
+  "TypeScript": {
+    "beautifiers": [
+      "Prettier",
+      "Pretty Diff"
+    ],
+    "indent_style": "tab",
+    "multiline_ternary": "never",
+    "pragma_insert": true,
+    "arrow_parens": "always"
+  },
+  "JSON": {
+    "beautifiers": [
+      "Prettier",
+      "Pretty Diff",
+      "JS-Beautify"
+    ],
+    "align_assignments": true,
+    "break_chained_methods": true,
+    "end_with_comma": true,
+    "end_with_semicolon": true,
+    "indent_comments": true,
+    "indent_style": "tab",
+    "multiline_ternary": "always",
+    "quotes": "double",
+    "arrow_parens": "as-needed",
+    "jsx_brackets": true
+  },
+  "JSX": {
+    "beautifiers": [
+      "Prettier",
+      "Pretty Diff",
+      "JS-Beautify"
+    ],
+    "indent_style": "tab",
+    "multiline_ternary": "never",
+    "quotes": "double",
+    "arrow_parens": "always"
+  }
+}
