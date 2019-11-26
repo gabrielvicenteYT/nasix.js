@@ -51,6 +51,10 @@ let runkit = {
     core : runiitm,
     load: loadJS,
 };
+
+let rk = runkit;
+let r = rk;
+
 window.addEventListener('DOMContentLoaded', (event) => {
     runkit.load("https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js");
     runkit.load("https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js");
@@ -61,6 +65,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
             jQuery,
             _
         };
+        try {
+            r.initapp();
+        } catch (error) {
+            console.log("Error Running InitApp");
+            console.log(error);
+        }
     }, 2000);
     
 });
+
+
