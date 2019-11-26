@@ -1,6 +1,6 @@
 {
   "name": "runkit.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SUPERCHRAGE your Website or Server",
   "main": "core.js",
   "scripts": {
