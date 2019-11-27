@@ -1,5 +1,7 @@
 First off, Thank you for Contributing! We would like to help you make your firsts contribution. For tips and rules, read on in.
 
+Please read our [Code of Conduct](https://github.com/steviebeenz/nasix.js/blob/master/CODE_OF_CONDUCT.md) first.
+
 # Contributing Guidelines
 
  We want clean styled, commented code. If your code is unclean, uncommented, then please ifx before making a PR.
