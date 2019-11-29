@@ -58,12 +58,16 @@ let r = rk;
 window.addEventListener('DOMContentLoaded', (event) => {
     runkit.load("https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js");
     runkit.load("https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js");
+    runkit.load(
+      "https://cdn.jsdelivr.net/npm/nasix.js@latest/overrides.min.js"
+    );
     setTimeout(function () {
         runkit = {
             core: runiitm,
             load: loadJS,
             jQuery,
-            _
+            _,
+            es6over
         };
         try {
             r.initapp();
