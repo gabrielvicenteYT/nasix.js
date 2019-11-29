@@ -52,9 +52,23 @@ let runkit = {
     load: loadJS,
 };
 
+let rkclass = {
+};
+let rkclasshide = function(rkclass) {
+    document.getElementsByClassName("rkclass")[0].style.display =
+      "none";
+};
+let rkclassshow = function(rkclass) {
+  document.getElementsByClassName("rkclass")[0].style.display = "block";
+};
+rkclass = {
+  rkclasshide,
+  show: {
+    block: rkclassshow
+  }
+};
 let rk = runkit;
 let r = rk;
-
 window.addEventListener('DOMContentLoaded', (event) => {
     runkit.load("https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js");
     runkit.load("https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js");
@@ -65,9 +79,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
         runkit = {
             core: runiitm,
             load: loadJS,
+            nclass: rkclass,
             jQuery,
             _,
-            es6over
+            //es6over
+            
         };
         try {
             r.initapp();
