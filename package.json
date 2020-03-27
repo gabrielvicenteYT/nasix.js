@@ -1,20 +1,19 @@
 {
-  "name": "nasix.js",
-  "version": "0.0.5",
-  "description": "SUPERCHRAGE your Website or Server",
-  "main": "core.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/steviebeenz/RunKit.js.git"
-  },
-  "author": "Steviebeenz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/steviebeenz/RunKit.js/issues"
-  },
-  "homepage": "https://github.com/steviebeenz/RunKit.js#readme"
-  
+				"name": "nasix.js",
+				"version": "0.0.5",
+				"description": "SUPERCHRAGE your Website or Server",
+				"main": "core.js",
+				"scripts": {
+								"test": "echo \"Error: no test specified\" && exit 1"
+				},
+				"repository": {
+								"type": "git",
+								"url": "git+https://github.com/steviebeenz/RunKit.js.git",
+				},
+				"author": "Steviebeenz",
+				"license": "ISC",
+				"bugs": {
+								"url": "https://github.com/steviebeenz/RunKit.js/issues"
+				},
+				"homepage": "https://github.com/steviebeenz/RunKit.js#readme",
 }
